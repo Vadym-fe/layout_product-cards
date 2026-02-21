@@ -1,10 +1,6 @@
-.card {
-  &__imac-image {
-    object-fit: contain;
-    width: 160px;
-    height: 134px;
-    margin: 32px auto 40px;
-    display: block;
-    background-size: contain;
-  }
+.card__image {
+  width: 160px;
+  height: 134px;
+  margin-bottom: 40px;
+  display: block;
 }
