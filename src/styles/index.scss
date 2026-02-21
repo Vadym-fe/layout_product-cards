@@ -1,3 +1,19 @@
+@import './image';
+@import './text';
+@import './stars';
+@import './value';
+@import './button';
+
 body {
   margin: 0;
+}
+
+.card {
+  width: 200px;
+  height: 408px;
+
+  &__information {
+    margin-top: 34px;
+    padding-inline: 16px;
+  }
 }

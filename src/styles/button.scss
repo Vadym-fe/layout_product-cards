@@ -1,0 +1,22 @@
+.card {
+  &__button {
+    background-color: #00acdc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 166px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+
+    &:hover {
+      background-color: white;
+      color: #00acdc;
+      border: 1px solid #00acdc;
+    }
+  }
+}
