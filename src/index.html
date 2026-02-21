@@ -11,6 +11,19 @@
       rel="stylesheet"
       href="./styles/index.scss"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div
@@ -23,34 +36,33 @@
         class="card__imac-image"
       />
 
-      <div class="card__information">
-        <h1 class="card__name">
-          APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
-        </h1>
-        <h2 class="card__code">Product code: 195434</h2>
+      <h1 class="card__name">
+        APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+      </h1>
+      <h2 class="card__code">Product code: 195434</h2>
 
-        <div class="card__rating">
-          <div class="card__stars">
-            <div class="card__star card__star--active"></div>
-            <div class="card__star card__star--active"></div>
-            <div class="card__star card__star--active"></div>
-            <div class="card__star card__star--active"></div>
-            <div class="card__star"></div>
-          </div>
-          <h2 class="card__review">Reviews: 5</h2>
+      <div class="card__rating">
+        <div class="stars">
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
+          <div class="stars__star"></div>
         </div>
-
-        <div class="card__value">
-          <p class="card__price">Price:</p>
-          <h2 class="card__cost">$2,199</h2>
-        </div>
-        <button
-          class="card__button"
-          data-qa="hover"
-        >
-          Buy
-        </button>
+        <h2 class="card__review">Reviews: 5</h2>
       </div>
+
+      <div class="card__value">
+        <p class="card__price">Price:</p>
+        <h2 class="card__cost">$2,199</h2>
+      </div>
+      <a
+        href="#"
+        class="card__button"
+        data-qa="hover"
+      >
+        Buy
+      </a>
     </div>
   </body>
 </html>

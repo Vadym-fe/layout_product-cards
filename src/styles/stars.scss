@@ -1,31 +1,35 @@
+.stars {
+  display: flex;
+  justify-content: left;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars .stars__star:nth-child(-n + 4) {
+  background-image: url(../images/star-active.svg);
+}
+
 .card {
   &__rating {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-  }
-
-  &__stars {
-    display: flex;
-    gap: 4px;
-  }
-
-  &__star {
-    width: 16px;
-    height: 16px;
-    background-image: url(../images/star.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-
-    &--active {
-      background-image: url(../images/star-active.svg);
-    }
   }
 
   &__review {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 10px;
-    line-height: 14px;
+    line-height: 15px;
   }
 }

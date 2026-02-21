@@ -1,8 +1,10 @@
 .card {
   &__imac-image {
+    object-fit: contain;
     width: 160px;
     height: 134px;
-    padding-top: 32px;
-    padding-inline: 19px;
+    margin: 32px auto 40px;
+    display: block;
+    background-size: contain;
   }
 }

@@ -4,15 +4,15 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    line-height: 18px;
+    margin-bottom: 16px;
   }
 
   &__price {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
     color: #616070;
-    margin-bottom: 0;
     align-items: center;
   }
 
@@ -20,8 +20,6 @@
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
     color: #060b35;
-    margin-bottom: 0;
   }
 }
